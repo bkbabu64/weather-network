@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #586ff5;
     text-align: center;
     padding: 50px;
   }
@@ -16,8 +16,8 @@ body {
   }
   
   button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #6436e4;
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
@@ -31,7 +31,7 @@ body {
   }
   
   .forecast {
-    background-color: #fff;
+    background-color: #dadada;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;

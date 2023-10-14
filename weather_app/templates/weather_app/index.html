@@ -8,11 +8,18 @@
 	<title>Weather App</title>
     <link rel="stylesheet" href="{% static "style.css" %}">
 </head>
-<body>
+<body style="background-color: rgb(28, 141, 211);">
+    <h1 style="color:rgb(255, 255, 255);">
+        You can check your own Weather
+    </h1>
     <form method="post">
         {% csrf_token %}
-        <input type = "text", name = "city" placeholder = "Type City">
-        <button type = "submit"> Check Weather </button>
+        <input type = "text", name = "city" placeholder = "Type City Name"><br><br>
+        <button type = "submit"> SHOW WEATHER</button>
+        <marquee>
+            <h5 style="color: azure;">Developed by Shahidul islam, Eusuf Abdullah & Shahadat Hossain</h5>
+        </marquee>
+        
     </form>
 
     <div class="comparison-container">
